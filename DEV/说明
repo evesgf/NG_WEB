@@ -1,0 +1,61 @@
+文件根目录名为Page
+所有页面编码格式要求为UTF-8
+
+注意：文件夹名字区分大小写！！！
+注意：文件夹名字区分大小写！！！
+注意：文件夹名字区分大小写！！！
+重要的事情说三遍
+
+一层目录
+    app:存放页面逻辑等
+    bak:备份及打包
+    vendor:为angular，bootstrap等框架存放地址
+    config.router:路由配置
+    index:网站首页
+    说明:说明文档
+    publicSetting:公共配置
+
+app
+    common:公共文件存储
+        fonts:字体
+        l10n:本地化
+        layout:公共页，模板页存储
+            blocks:基本模块
+                aside
+                aside.music
+                header
+                header.music
+                nav:侧边折叠菜单栏
+                page_footer
+                settings
+            app:模板样式
+            page_404:404页面
+        scripts:公共脚本，模板存储
+            app:
+            controllers:
+            directives:
+            filters:
+            services:
+            app:
+            config:
+            config.lazyload:
+            main:主要配置
+        static:静态文件存储
+            images:
+        style:公共样式存储
+            less:
+    module:网站模块
+
+
+目前实现功能为：
+    自动回复：
+        关注自动回复（只支持文字）
+        关键字回复（只支持文字）
+    自定义菜单：
+        菜单管理
+        更新菜单
+    平台部署设置：
+        首次部署验证（明文模式）
+    服务号基础设置：
+        多公众号增删查改
+        开启状态管理
